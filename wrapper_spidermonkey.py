@@ -12,14 +12,16 @@ TODO:
 """
 
 import sys
+import os
 
 import spidermonkey
 
 from simplejson import loads as json
 
 
-lint_path = "fulljslint.js"
-json_path = "json2.js"
+cwd = sys.path[0]
+lint_path = os.path.join(cwd, "fulljslint.js")
+json_path = os.path.join(cwd, "json2.js") # XXX: built in from Spidermonkey 1.8
 
 
 def main(args=None):
