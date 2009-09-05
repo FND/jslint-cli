@@ -58,12 +58,12 @@ def format(errors, file):
 
 	<filepath>:<line>:<column>:<message>
 	"""
-	lines = [":".join([
+	lines = (":".join([
 		file,
 		str(error["line"] + 1),
 		str(error["character"] + 1),
 		error["reason"]
-		]) for error in json(errors)] # XXX: don't use generator expression!?
+		]) for error in json(errors) if error)
 	# XXX: ignoring members id, evidence, raw, a, b, c, d
 	return "\n".join(lines)
 
