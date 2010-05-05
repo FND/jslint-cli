@@ -3,6 +3,8 @@ Wed, 05 May 2010 17:01:51 +0200
 
 It was downloaded from http://pypi.python.org/pypi/jslint
 
-Upstream Authors: FND <FNDo at gmx net>
+Upstream Authors: 
+Douglas Crockford (jslint)
+Frederik Dohr (FND) <FNDo at gmx net> (jslint-cli wrapper)
 
 Copyright:
