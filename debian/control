@@ -1,0 +1,13 @@
+Source: jslint
+Maintainer: Johan Euphrosine (proppy) <proppy@aminche.com>
+Section: devel
+Priority: optional
+Standards-Version: 3.8.4
+Build-Depends: debhelper (>= 7), cdbs, python-support, python
+
+Package: jslint
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, spidermonkey-bin
+Description: Javascript code checker
+ JSLint is a tool that check JavaScript code for syntax errors and
+ common mistakes.
