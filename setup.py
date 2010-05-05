@@ -18,6 +18,7 @@ setup(
 	long_description = open(os.path.join(os.path.dirname(__file__), "README")).read(),
 	author = AUTHOR,
 	author_email = AUTHOR_EMAIL,
+	license="LICENSE",
 	url = "http://pypi.python.org/pypi/%s" % NAME,
 	platforms = "Posix; MacOS X; Windows",
 	scripts = ["jslint-cli"],
