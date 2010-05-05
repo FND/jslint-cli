@@ -1,0 +1,3 @@
+*.pyc
+jslint/fulljslint.js
+jslint/json2.js

@@ -1,0 +1,6 @@
+command-line wrapper for JSLint
+
+Usage:
+  $ jslint-cli <filename>
+
+Uses Douglas Crockford's JSLint (http://jslint.com) and JSON (http://json.org).

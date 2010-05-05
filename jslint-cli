@@ -1,0 +1,27 @@
+#!/usr/bin/env python
+
+"""
+command-line wrapper for JSLint (http://jslint.com)
+
+Usage:
+  $ jslint <filepath>
+"""
+
+import sys
+
+from jslint.spidermonkey import lint, format # TODO: option to use Rhino instead
+
+
+def main(args):
+	args = [unicode(arg, "utf-8") for arg in args]
+	filepath = args[1]
+
+	errors = lint(filepath)
+	print format(errors, filepath)
+
+	return len(errors) == 0
+
+
+if __name__ == "__main__":
+	status = not main(sys.argv)
+	sys.exit(status)
