@@ -1,6 +1,9 @@
 command-line wrapper for JSLint
+http://github.com/FND/jslint-cli
 
 Usage:
   $ jslint-cli <filename>
 
-Uses Douglas Crockford's JSLint (http://jslint.com) and JSON (http://json.org).
+Uses Douglas Crockford's JavaScript libraries:
+* JSLint (http://jslint.com)
+* JSON (http://json.org)

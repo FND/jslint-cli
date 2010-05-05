@@ -17,7 +17,7 @@ function readlines() {
 	var blankcount = 0;
 	while(blankcount < EOFCount) {
  		var line = readline();
-		blankcount = line === "" ? blankcount + 1 : 0;
+		blankcount = (line === null || line === "") ? blankcount + 1 : 0;
 		lines.push(line);
 	}
 	lines.splice(lines.length - EOFCount, EOFCount);
