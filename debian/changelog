@@ -1,5 +1,5 @@
-jslint (0.5.1-1) unstable; urgency=low
+jslint (0.5.3-1) unstable; urgency=low
 
-  * Initial release. (Closes: #nnnnnn)
+  * Initial release. (Closes: #559969)
 
  -- Johan Euphrosine (proppy) <proppy@aminche.com>  Wed, 05 May 2010 17:01:51 +0200

@@ -3,7 +3,7 @@ Maintainer: Johan Euphrosine (proppy) <proppy@aminche.com>
 Section: devel
 Priority: optional
 Standards-Version: 3.8.4
-Build-Depends: debhelper (>= 7), cdbs, python-support, python
+Build-Depends: debhelper (>= 7), cdbs, python-support, python-setuptools, python2.6
 
 Package: jslint
 Architecture: any
