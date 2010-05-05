@@ -7,3 +7,14 @@ Usage:
 Uses Douglas Crockford's JavaScript libraries:
 * JSLint (http://jslint.com)
 * JSON (http://json.org)
+
+
+Prior Art
+
+More sophisticated wrappers exist in other languages:
+http://search.cpan.org/dist/JavaScript-JSLint/bin/jslint
+http://www.corybennett.org/projects/
+http://code.google.com/p/jslint4java/
+
+However, these are either not suitable for my own purposes or are not being
+actively maintained.
