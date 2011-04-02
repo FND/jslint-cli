@@ -1,3 +1,13 @@
+===========================================================
+DEPRECATED
+
+This wrapper has been superseded by JSLint Reporter:
+http://github.com/FND/jslint-reporter
+===========================================================
+
+
+
+
 command-line wrapper for JSLint
 http://github.com/FND/jslint-cli
 
