@@ -1,8 +1,9 @@
 .PHONY: jslib test dist release pypi clean purge
 
 jslib:
-	curl -o jslint/fulljslint.js http://www.jslint.com/fulljslint.js
-	curl http://json.org/json2.js | sed -e "/^alert(.*);$$/d" > jslint/json2.js
+	curl -o jslint/fulljslint.js http://www.jslint.com/jslint.js
+	curl https://github.com/douglascrockford/JSON-js/raw/master/json2.js | \
+			sed -e "/^alert(.*);$$/d" > jslint/json2.js
 
 test: jslib
 	py.test -x test
